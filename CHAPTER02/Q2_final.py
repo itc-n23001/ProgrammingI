@@ -1,4 +1,9 @@
-import random
+from random import sample
 
-s = [chr(i) for i in range(97, 123)]
-print(random.randint(97, 123))
+n = []
+while True:
+    m = sample([chr(i) for i in range(97, 123)], 2)
+    n.append(m)
+    if m == ["u", "r"]:
+        print(n)
+        break
