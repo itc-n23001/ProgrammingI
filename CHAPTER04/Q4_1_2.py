@@ -6,3 +6,5 @@ def fib2(n):
         a, b = b, a + b
     return result
     fib2(200)
+
+    # ターミナル上でpython3に入り実行するとできます。
